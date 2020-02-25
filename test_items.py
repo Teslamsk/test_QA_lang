@@ -18,9 +18,12 @@ from selenium import webdriver
 # Название test_something не удовлетворяет требованиям. +
 
 
-# Убедиться в том, что тест успешно проваливается - можно если ввести парметр датского языка 'da'
 
 link = 'http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/'
+
+# Here are texts from button "Add to basket" from different localizing.
+# You can make sure, that test works if choose Danish (language = da). I didn't add this text.
+# This way test will fall.
 
 right_answers = ("Добавить в корзину",
                  "Add to basket",
@@ -43,4 +46,3 @@ class TestItems(object):
         browser.get(link)
         button = browser.find_element_by_css_selector("button.btn-add-to-basket")
         assert button.text in right_answers
-        time.sleep(5)
