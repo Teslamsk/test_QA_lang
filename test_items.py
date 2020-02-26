@@ -24,6 +24,7 @@ link = 'http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/'
 # You can make sure, that test works if choose Danish (language = da). I didn't add this text.
 # This way test will fall.
 
+
 class TestItems(object):
     """
     This class checks if the guest sees the "Add to cart" button.
