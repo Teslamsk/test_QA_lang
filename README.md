@@ -5,9 +5,9 @@
 Тестовое задание представляет собой автотест, который проверяет, что страница товара для неавторизованного посетителя содержит кнопку 
 добавления в корзину. 
 
--Ссылка на задание: https://stepik.org/lesson/237240/step/9?unit=209628
--Ссылка на репозиторий: https://github.com/Teslamsk/test_QA_lang
--В рамках задания были созданы два файла - conftest.py и test_items.py. 
+- Ссылка на задание: https://stepik.org/lesson/237240/step/9?unit=209628
+- Ссылка на репозиторий: https://github.com/Teslamsk/test_QA_lang
+- В рамках задания были созданы два файла - conftest.py и test_items.py. 
 
 # conftest.py
 
