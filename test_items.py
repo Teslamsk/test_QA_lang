@@ -24,18 +24,6 @@ link = 'http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/'
 # You can make sure, that test works if choose Danish (language = da). I didn't add this text.
 # This way test will fall.
 
-right_answers = ("Добавить в корзину",
-                 "Add to basket",
-                 "Añadir al carrito",
-                 "Ajouter au panier",
-                 "In Warenkorb legen",
-                 "Aggiungi al carrello",
-                 "أضف الى سلة التسوق",
-                 "Додати в кошик",
-                 "장바구니 담기",
-                 )
-
-
 class TestItems(object):
     """
     This class checks if the guest sees the "Add to cart" button.
