@@ -42,7 +42,7 @@ class TestItems(object):
     This class checks if the guest sees the "Add to cart" button.
     """
 
-    def test_item(self, browser):
+    def test_if_cart_btn_available(self, browser):
         browser.get(link)
         button = browser.find_element_by_css_selector("button.btn-add-to-basket")
         assert button.text in right_answers
