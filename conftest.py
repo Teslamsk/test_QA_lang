@@ -16,9 +16,9 @@ from selenium.webdriver.chrome.options import Options
 # и проходить успешно. Достаточно, чтобы код работал только для браузера Сhrome.
 
 def pytest_addoption(parser):
-    # Parameterization of the test by browser
+    # Parameterization of the test by the browser
     parser.addoption('--browser_name', action='store', default='chrome', help="Choose browser: chrome or firefox")
-    # Parameterization of the test by language
+    # Parameterization of the test by the language
     parser.addoption('--language', action='store', default='ru', help="Choose language: ru, en, es, fr etc.")
 
 
