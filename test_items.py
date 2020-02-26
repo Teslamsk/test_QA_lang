@@ -18,7 +18,6 @@ from selenium import webdriver
 # Название test_something не удовлетворяет требованиям. +
 
 
-
 link = 'http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/'
 
 # Here are texts from button "Add to basket" from different localizing.
@@ -45,4 +44,4 @@ class TestItems(object):
     def test_if_cart_btn_available(self, browser):
         browser.get(link)
         button = browser.find_element_by_css_selector("button.btn-add-to-basket")
-        assert button.text in right_answers
+        assert button.is_enabled
